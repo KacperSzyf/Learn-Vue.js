@@ -14,8 +14,8 @@ export default {
   props: ['todo'],
   methods: {
     markComplete() {
-        this.$emit("update:todo", !this.todo.completed);
-        console.log("fired!")
+      this.$emit("mark-complete", !this.todo.completed);
+
     }
   }
 
