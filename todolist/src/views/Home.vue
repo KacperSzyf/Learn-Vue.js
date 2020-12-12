@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import Header from "@/components/layout/Header";
 import AddTodo from "@/components/AddTodo";
 import Todos from "@/components/Todos";
 import axios from "axios"
@@ -13,7 +12,6 @@ import axios from "axios"
 export default {
   name: 'Home',
   components: {
-    Header,
     AddTodo,
     Todos,
   },
